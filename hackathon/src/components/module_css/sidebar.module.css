@@ -1,0 +1,131 @@
+.sidebarToggle {
+  position: absolute;
+  left: 30px;
+  top:25px;
+  cursor: pointer;
+  z-index: 999;
+  font-size: 16px;
+  
+}
+
+.sidebar {
+  background-color: white;
+  width: 320px;
+  height: 100%;
+  position: fixed;
+  top:76px;
+  left: -320px;
+  transition: left 0.7s ;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: sans-serif;
+  z-index: 998;
+  box-shadow: 0px 2px 4px rgba(21, 21, 21, 0.952);
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img,
+.profile svg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sidebarMenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebarMenu ul li {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.sidebarMenu ul li:hover {
+  background-color: #6316c9bd;
+}
+
+.sidebarMenu ul li a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarMenu ul li a svg {
+  margin-right: 28px;
+  font-size: 22px;
+}
+
+.searchBar input {
+  width: calc(100% - 25px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  position: absolute;
+  top: 600px;
+  left: 5px;
+}
+
+.searchBar input:focus {
+  border-color: rgb(117, 15, 201);
+}
+
+.themeToggle {
+  position: absolute;
+  bottom: 100;
+  left: 2;
+  cursor: pointer;
+  width: 100%;
+}
+
+.themeToggle svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 26px;
+}
+
+.themeToggle.dark svg {
+  color: #fff; /* Change icon color for dark mode */
+}
+
+.sidebarToggle svg{
+    width: 30px;
+    height: 24px;
+    
+}
+.logo h2{
+    font-weight: 800;
+    color: #7618c8;
+    font-size: 25px;
+}
+.profile svg{
+  color: #000;
+}
+.themeToggle{
+  color: #000;
+}

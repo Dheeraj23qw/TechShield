@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    height: 90vh; 
+    margin-top: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .message {
+    color: #555;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 24.5rem;
+  }
+  

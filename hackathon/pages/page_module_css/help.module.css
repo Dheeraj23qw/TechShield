@@ -1,0 +1,37 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  }
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    margin-bottom: 15px;
+  }
+  
+  .list li strong {
+    color: #007bff;
+  }
+  
+  .list li:before {
+    content: "\2022";
+    color: #007bff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .list li {
+    font-size: 16px;
+  }
+  
+  .list li:last-child {
+    margin-bottom: 0;
+  }
+  

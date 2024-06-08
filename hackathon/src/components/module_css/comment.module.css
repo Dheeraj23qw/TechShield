@@ -1,0 +1,126 @@
+/* comment.module.css */
+
+.commentContainer {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  
+  }
+  
+  .comment {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .comment:hover {
+    border-color: #0fa38d;
+  }
+  
+  .commentTime {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .userProfile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .userProfile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .commentName {
+    font-weight: bold;
+  }
+  
+  .commentText {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .commentActions {
+    margin-top: 10px;
+    display:flex;
+  }
+  
+  .iconButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: #777;
+  }
+  
+  .iconButton:hover {
+    color: #0fa38d;
+  }
+  
+  .editComment textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .editComment div {
+    margin-top: 10px;
+  }
+  
+  .editComment button {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1c676d;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .editComment button:hover {
+    background-color: #07d9dc;
+  }
+  
+  .replyInput {
+    margin-top: 10px;
+  }
+  
+  .replyInput input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .replyInput button {
+    width: 80px;
+    padding: 8px;
+    background-color: #106563;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .replyInput button:hover {
+    background-color: #08d1df;
+  }
+  
+  .replies {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  

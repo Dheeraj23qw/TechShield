@@ -1,0 +1,40 @@
+.card-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+   
+  }
+  
+  .iconunclicked {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .iconunclicked:hover {
+    color: #b41039; 
+  }
+  
+  .iconclicked{
+    color: #b41039;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .imageContainer {
+    width: 100%;
+    height: 250px; /* Set the desired height for the image container */
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  .cardcontainer{
+    height: 500px;
+    box-shadow: 0px 2px 4px rgba(21, 21, 21, 0.8);
+    margin-bottom:20px ;
+  }
