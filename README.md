@@ -48,11 +48,11 @@ One-stop hub for safety education:
 | Frontend     | React.js, React-Bootstrap, Styled Components       |
 | Backend      | Node.js, Express.js                                |
 | Database     | MongoDB, Mongoose                                  |
-| Auth & Logic | JWT, Passport.js, Redux Toolkit, Express Validator |
+| Auth & Logic | JWT, Passport.js, Redux Toolkit |
 | Payments     | Stripe                                             |
-| Utilities    | Multer, Joi, Helmet, Morgan, Nanoid                |
+| Utilities    | Multer, Nanoid                |
 
-> ❌ **Note:** We did **not** use Redis in this project.
+
 
 ---
 
@@ -89,10 +89,6 @@ One-stop hub for safety education:
   "cors": "^2.8.5",
   "dotenv": "^16.4.5",
   "express": "^4.19.2",
-  "express-async-handler": "^1.2.0",
-  "express-validator": "^7.0.1",
-  "helmet": "^7.1.0",
-  "joi": "^17.12.2",
   "jsonwebtoken": "^9.0.2",
   "mongodb": "^6.5.0",
   "mongoose": "^8.2.4",
@@ -101,11 +97,9 @@ One-stop hub for safety education:
   "nanoid": "^5.0.6",
   "nodemon": "^3.1.0",
   "passport": "^0.7.0",
-  "passport-local": "^1.0.0",
   "shortid": "^2.2.16",
   "socket.io": "^4.7.5",
   "stripe": "^14.24.0",
-  "winston": "^3.13.0"
 }
 ```
 
